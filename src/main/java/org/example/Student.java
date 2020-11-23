@@ -4,16 +4,16 @@ package org.example;
 
 public class Student {
 
-    private int id;
-    private String name;
-    private String surname;
-    private String patronymic;
-    private String birthday;
-    private String address;
-    private String phoneNumber;
-    private String faculty;
-    private int course;
-    private int group;
+    private  int id;
+    private final String name;
+    private final String surname;
+    private final String patronymic;
+    private final String birthday;
+    private final String address;
+    private final String phoneNumber;
+    private final String faculty;
+    private final int course;
+    private final int group;
 
     public Student(){
         this.id=0;

@@ -3,7 +3,7 @@ import java.util.*;
 import java.util.stream.Stream;
 
 public class StudentRepository {
-    private ArrayList<Student> students;
+    private final ArrayList<Student> students;
 
     public StudentRepository(){
         students= new ArrayList<Student>();
@@ -16,7 +16,7 @@ public class StudentRepository {
     }
     public void ListOfStudentsFaculty(String faculty){
           System.out.println("Список студентов факультета: "+faculty);
-          System.out.println("");
+          System.out.println();
         for (Student st:
              students) {
             if(st.getFaculty().equals(faculty))
